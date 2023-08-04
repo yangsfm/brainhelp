@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+a {
+    color: #4ED5F9; 
+}
+a:link { 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #4ED5F9; 
+}
+/* Imagem: Logo Brain Help */
+#logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+/* Texto: Bem vindo */
+#bemvindo {
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: black;
+    font-weight: bold;
+}
+/* Texto: Login */
+#login {
+    font-size: 13pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #6E6E6E;
+}
+/* Formulário: Email, Senha */
+.form-control {
+    width: 80%;
+    font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 0.5px solid #E5E7E7;
+    padding: 0px;
+}
+/* Texto: Esqueceu sua senha? */
+#esqueceusenha {
+    margin-left: 55%;
+    color: #4ED5F9;
+    font-weight: bold;
+}
+/* Botão Entrar */
+#entrar {
+    position: fixed; 
+    margin-top: 2%;
+    width: 80%;
+	background-color: #4ED5F9; 
+	height: 50px; 
+	border-radius: 20px; 
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+    box-shadow: 1px 4px 4px #c4c4c4;
+    border: 0 none;
+}
+a#botaoentrar{
+    display: flex;
+    justify-content: center;
+}
+/* Texto: Ou Entre Usando */
+#entreusando {
+    font-size: 13px;
+    color: #ABB0AF;
+    text-indent: -1%;
+
+}
+.entre-usando{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    padding: 0;
+}
+.divider{
+    height: 1px;
+    background-color: #D5DEE7;
+    width: 65%;
+    margin-left: 2%;
+}
+/* Imagem: Icones */
+.icones {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+}
+/* Texto: Crie Agora */
+#crieagora {
+    font-size: 11pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 15%;
+    color: #7A7A7A;
+    
+}

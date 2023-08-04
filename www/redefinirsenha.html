@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="www/loader.js"></script>
+    <!-- bootstrap --> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jquery -->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="css/redefinirsenha.css">
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <!-- Imagem: Voltar --> 
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="carregamento.html"><img id="voltar" src="img/voltar.png"></a>
+        </div>
+    </div> 
+    <!-- Texto: Redefinir a Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="redefinirsenha">Redefinir a Senha</p>  
+        </div>
+    </div> 
+    <!-- Texto: Info Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="infosenha">Sua senha precisa ter no mínimo 8 caracteres e pelo menos uma letra e um símbolo
+            </p>
+        </div>
+    </div> 
+    <!-- Texto: Nova Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="novasenha">Nova Senha</p>   
+        </div>
+    </div> 
+    <!-- Formulário: Nova Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <input type="password" id="email" class="form-control" placeholder="Entre com sua nova senha" required>
+          </div>
+        </div>
+      </div>
+    <!-- Texto: Confirmar Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+            <p id="confirmarsenha">Confirmar Senha</p>   
+        </div>
+    </div> 
+    <!-- Formulário: Confirmar Senha -->
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <input type="password" id="email" class="form-control" placeholder="Entre com sua nova senha" required>
+          </div>
+        </div>
+      </div>
+    <!-- Botão: Próximo -->
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <a id="botaoproximo" href="senhaalterada.html"><button class="btn btn-block" id="proximo">Próximo</button></a> 
+          </div>
+        </div>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+a {
+    color: #4ED5F9; 
+}
+a:link { 
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: #4ED5F9; 
+}
+/* Imagem: Logo Brain Help */
+#logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+/* Texto: Crie uma conta */
+#crieconta {
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    color: black;
+    font-weight: bold;
+}
+/* Texto: Registre-se */
+#registre {
+    font-size: 11pt;
+    margin-top: -2%;
+    margin-bottom: -5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 500;
+    color: black;
+}
+/* Formulário: Nome, Email, Telefone / Celular, Senha, Repetir Senha */
+.form-control { 
+    width: 80%;
+    font-size: 12pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 0.5px solid #E5E7E7;
+    padding: 0px;
+}
+/* Formulário: Termos */
+#termosp {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding: 0px;
+    color: #999999;
+}
+.termos {
+    width: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    padding: 0px;
+}
+/* Botão Entrar */
+#registrar {
+    position: fixed; 
+    margin-top: 2%;
+    width: 80%;
+	background-color: #4ED5F9; 
+	height: 50px; 
+	border-radius: 20px; 
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+    box-shadow: 1px 4px 4px #c4c4c4;
+    border: 0 none;
+}
+a#botaoregistrar{
+    display: flex;
+    justify-content: center;
+}
+/* Texto: Entre Agora */
+#entreagora {
+    font-size: 11pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 25%;
+    color: #7A7A7A;
+}
